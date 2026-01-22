@@ -5,6 +5,7 @@ set(SOURCE_FILES
     main.c
     server.c
     parser.c
-    utils.c)
+    utils.c
+    handler.c)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
